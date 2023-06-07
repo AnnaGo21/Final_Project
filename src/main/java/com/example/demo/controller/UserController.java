@@ -20,7 +20,7 @@ public class UserController {
 
     @GetMapping("/user")
     public String getUser(){
-        return "Hello, user!";
+        return "User added. Hello, user!";
     }
 
     @GetMapping("/add")
